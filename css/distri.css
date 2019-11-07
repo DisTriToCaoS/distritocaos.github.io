@@ -11,7 +11,7 @@ html, body {
 body {
 	background: #202020;
 	color: white;
-	font-size: 20px;
+	font-size: 23px;
 }
 
 .cabe {
@@ -28,7 +28,7 @@ body {
 	margin-top: 5px;
 	letter-spacing: 1px;
 	text-align: center;
-	font-size: 12px;
+	font-size: 25px;
 	background: transparent;
 	color: white;
 	width: 225px;
@@ -45,7 +45,7 @@ body {
 	margin-top: 5px;
 	letter-spacing: 1px;
 	text-align: center;
-	font-size: 15px;
+	font-size: 25px;
 	background: transparent;
 	color: white;
 	width: 225px;
@@ -74,7 +74,7 @@ footer {
 	}
 
 	.section {
-		 	font-size: 15px;
+		 	font-size: 22px;
 		 	width: 600px;
 		 }
 

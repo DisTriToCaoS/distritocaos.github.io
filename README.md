@@ -1,3 +1,2 @@
 # distritocaos.github.io
-
-pagina creada por  Mon  S.S
+Created   by  Mon_S_S

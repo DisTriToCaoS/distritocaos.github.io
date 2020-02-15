@@ -1,3 +1,2 @@
-# c3r0cool.github.io
-
-by  MoN (c3r0cool)
+coolc3r0.github.io
+by MoN(CooLc3r0)

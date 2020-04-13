@@ -1,0 +1,198 @@
+/*  by MnKCaOs*/
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body {
+
+}
+body {
+	background: black;
+	color: #e0e0e0;
+	font-family: Helvetica;
+	letter-spacing: 1px;
+}
+.header {
+	background: black;
+	color: #e0e0e0;
+	font-size: 22px;
+	height: 25px;
+}
+#as {
+	margin-left: 20px;
+}
+#be{
+	width: 25px;
+	height: 25px;
+	float: right;
+	border-radius: 50px;
+	display: block;
+	margin-right: 15px;
+}
+
+#cao {
+	width: 35px;
+	height: 35px;
+	margin-left: 2px;
+	position: fixed;
+	top: 20px;
+	padding: 18px 5px;
+	border-radius: 50%;
+}
+.conten {
+	width: 90%;
+	color: silver;
+	letter-spacing: 1px;
+	font-size: 19px;
+	margin-top: 60px;
+	margin-left: 10px;
+	text-align: center;
+}	
+
+#ava0 {
+	width: 275px;
+	height: 200px;
+	display: block;/* CENTRAR IMAGEN */
+	margin: auto;/* CENTRAR IMAGEN */
+	top: 10px;
+	position: relative;
+	border-radius: 10px;
+}
+#ava1 {
+	width: 275px;
+	height: 200px;
+	display: block;/* CENTRAR IMAGEN */
+	margin: auto;/* CENTRAR IMAGEN */
+	top: 10px;
+	position: relative;
+	border-radius: 10px;
+}
+/* SECTION JUEGOS */
+.juegos {
+	background: transparent;
+	width: 250px;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+em {
+		text-align: center;
+		color: silver;
+	}
+.game {
+	text-decoration: none;
+	color: black;
+}
+
+.ranking {
+	position: relative;
+	text-align: center;
+	top: 20px;
+	color: #85cb61;
+}
+.rank {
+	color: #85cb61;
+	text-decoration: none;
+}
+.rank:hover {
+	color: #a4cdb7;
+}
+.footer {
+	position: relative;
+	color: #bdbdbd;
+	font-family: courier, bold;
+	font-size: 15px;
+	float: right;
+	margin-right: 20px;
+	top: 70px;
+}
+/* PAGINA RANKING */
+.header2 {
+	background: #a4cdb7;
+	color: black;
+	font-size: 22px;
+	height: 25px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.secc {
+	background: black;
+	width: 300px;
+	height: auto;
+	display: block;/* CENTRAR IMAGEN */
+	margin: auto;/* CENTRAR IMAGEN */
+	top: 20px;
+	border-radius: 10px;
+	position: relative;
+}
+
+#fo1 {
+	width: 150px;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+#volver {
+	text-decoration: none;
+	color: silver;
+	position: relative;
+	top: 20px;
+}
+#volver:hover{
+	color: white;
+}
+
+/* FIN pag ranking */
+@media screen and (min-width: 768px) {
+	.header {
+		font-size: 30px;
+		height: 30px;
+	}	
+	#as {
+		margin-left: 100px;
+	}
+	#be{
+		width: 30px;
+		height: 30px;
+		float: right;
+		border-radius: 50px;
+		display: block;
+		margin-right: 40px;
+	}
+	#cao {
+		width: 50px;
+		height: 50px;
+		margin-left: 10px;
+		border-radius: 50%;
+	}
+	.conten {
+		font-size: 23px;
+		margin-top: 80px;
+		width: 90%;
+
+	}
+	.juegos {
+		width: 500px;
+		height: auto;
+	}
+
+	#ava0 {
+	width: 300px;
+	height: 250px;
+	display: block;/* CENTRAR IMAGEN */
+	margin: auto;/* CENTRAR IMAGEN */
+	top: 10px;
+	position: relative;
+	border-radius: 10px;
+	}
+
+	#ava1 {
+	width: 300px;
+	height: 175px;
+	display: block;/* CENTRAR IMAGEN */
+	margin: auto;/* CENTRAR IMAGEN */
+	top: 10px;
+	position: relative;
+	border-radius: 10px;
+}
+}

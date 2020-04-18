@@ -1,2 +1,2 @@
 # DisTriToCaOS.github.io
-Created by DisTriToCaOs(Mon)
+Created by DisTriToCaOs

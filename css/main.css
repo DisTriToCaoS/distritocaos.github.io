@@ -1,0 +1,157 @@
+/* by DisTriToCaOs */
+/*  */
+* { }
+html, body { }
+body {
+	background: #202020;
+	color: silver;
+	font-size: 25px;
+	margin: 0;
+	padding: 60px 0 0 0;
+}
+.page {
+	margin: 0px auto;
+    width: 100%;
+}
+.header {
+	width: 100%;
+	background: black;
+	height: 30px;
+	position: fixed;
+	top: 0;
+	padding: 15px 20px;
+}
+.logo {
+	width: 250px;
+	height: 45px;
+	margin: auto;
+	display: block;
+}
+.redes {
+
+	width: 50px;
+	height: 50px;
+	margin-left: 5px;
+	position: fixed;
+	top: 80px;
+	padding: 18px 5px;
+	border-radius: 50%;
+
+}
+.red {
+	width: 50px;
+	border-radius: 50%;
+}
+
+.juegos {
+	width: 200px;
+	margin: auto;
+	display: block;	
+}
+.jue {
+	width: 200px;
+	height: 50px;
+	margin: auto;
+	display: block;
+	border-radius: 20px;
+}
+.contenido {
+	background: #deb887;
+	margin: auto;
+	display: block;
+	border-radius: 10px;
+	height: auto;
+    overflow: auto;
+    padding: 0% 1% 0% 1%;
+    width: 200px;
+    color: black;
+}
+.caos {
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+}
+article {
+	text-align: center;
+	letter-spacing: 1px;
+	margin: 20px;
+}
+.footer {
+	float: right;
+	position: relative;
+	color: silver;
+	font-family: courier, bold;
+	font-size: 15px;
+	margin-right: 10px;
+	top: 50px;
+}
+/* GAME ZONE */
+.inicio {
+	text-decoration: none;
+	color: orange;
+}
+.flecha {
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	margin-left: 20px;
+}
+.juegos1 {
+	width: 200px;
+	margin: auto;
+	display: block;
+}
+.jue1 {
+	width: 200px;
+	height: 150px;
+	margin: auto;
+	display: block;
+	border-radius: 20px;
+}
+/* FIN ZGAME ZONE*/
+/* SCREEN */
+@media screen and (min-width: 768px) {
+
+	.header {  }
+	.logo { width: 450px; }
+	.red { width: 60px; }
+	.redes { margin-left: 10px; }
+	.juegos {
+		width: 350px;
+		margin: auto;
+		display: block;
+	}
+	.jue {
+		width: 350px;
+		height: 100px;
+		margin: auto;
+		display: block;
+		border-radius: 10px;
+	}
+	.juegos1 {
+		width: 400px;
+		margin: auto;
+		display: block;
+	}
+	.jue1 {
+		width: 400px;
+		height: 200px;
+		margin: auto;
+		display: block;
+		border-radius: 10px;
+	}
+	.flecha {
+		width: 50px;
+		height: 50px;
+	}
+	.contenido {
+		width: 450px;
+		height: auto;
+	}
+	.caos {
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+}
+	.footer { font-size: 20px; }
+}

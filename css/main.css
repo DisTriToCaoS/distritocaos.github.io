@@ -1,0 +1,298 @@
+/* by DisTriToCaOs */
+* { }
+
+html, body { }
+
+body {
+	background: black;
+	color: white;
+	font-size: 25px;
+	margin: 0;
+	padding: 60px 0 0 0;
+	font-family: sans-serif;
+}
+/* OBRA */
+
+#obra {
+	text-align: center;
+	font-size: 22px;
+	font-family: courier;
+}
+/*  TERMI */
+.page {
+	margin: 0px auto;
+    width: 100%;
+}
+
+/* INTRO COMIENZO */
+.headIntro {
+	width: 100%;
+	height: 250px;
+	top: 100px;
+	position: absolute;
+}
+
+.logoIntro {
+	width: 250px;
+	height: 250px;
+	margin: auto;
+	display: block;
+}
+
+.redes {
+	display: inline-block;
+	margin-right: 50px;
+	position: absolute;
+	top: 10px;
+	margin-left: 45px;
+}
+
+.red {
+	width: 30px;
+	border-radius: 50%;
+}
+
+.zona {
+	width: 150px;
+	height: 60px;
+	float: right;
+	display: block;
+	border-radius: 20px;
+	position: relative;
+	top: -90px;
+	margin-right: -65px;
+}
+
+/* INTRO FIN */
+
+.header {
+	width: 100%;
+	background: black;
+	height: 40px;
+	position: fixed;
+	top: 0;
+	padding: 15px 20px;
+    border-bottom: 2px solid #303030;
+}
+
+.logo {
+	width: 250px;
+	height: 40px;
+	margin: auto;
+	display: block;
+}
+
+.juegos {
+	width: 200px;
+	margin: auto;
+	display: block;	
+}
+
+.jue {
+	width: 200px;
+	height: 50px;
+	margin: auto;
+	display: block;
+	border-radius: 20px;
+}
+
+.contenido {
+	background: black;
+	margin: auto;
+	display: block;
+	border-radius: 10px;
+	height: auto;
+    overflow: auto;
+    padding: 0% 1% 0% 1%;
+    width: 300px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #404040;
+    border-bottom: hidden;
+    border-top: hidden;
+    position: relative;
+    top: 150px;
+}
+
+.caos {
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+}
+
+.jue2 {
+	width: 200px;
+	height: 150px;
+	margin: auto;
+	display: block;
+	border-radius: 20px;
+}
+
+article {
+	text-align: center;
+	letter-spacing: 1px;
+	margin: 20px;
+}
+
+.footer {
+	position: relative;
+	color: silver;
+	font-family:  bold;
+	font-size: 15px;
+	top: 190px;
+	float: right;
+}
+
+/* GAME ZONE */
+
+.inicio {
+	text-decoration: none;
+	color: orange;
+}
+
+.flecha {
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	margin-left: 20px;
+	top: 15px;
+}
+
+.juegos1 {
+	width: 300px;
+	margin: auto;
+	display: block;
+}
+
+.jue1 {
+	width: 300px;
+	height: 150px;
+	margin: auto;
+	display: block;
+	border-radius: 20px;
+    border: 2px solid #303030;
+    border-bottom: hidden;
+    border-top: hidden;
+}
+
+.pie {
+	float: right;
+	position: relative;
+	color: silver;
+	font-family:  bold;
+	font-size: 15px;
+	margin-right: 10px;
+	top: 20px;
+}
+
+/* FIN ZGAME ZONE*/
+
+/* SCREEN */
+
+@media screen and (min-width: 768px) {
+
+	/* INTRO COMIENZO */
+	.headIntro {
+		width: 100%;
+		height: 300px;
+		position: absolute;
+		top: 90px;
+	}
+
+	.logoIntro {
+		width: 350px;
+		height: auto;
+		margin: auto;
+		display: block;
+	}
+
+	.redes {
+
+       margin-left: 150px;
+	}
+
+	.red {
+		width: 50px;
+		border-radius: 50%;
+	}
+
+	.zona {
+		width: 250px;
+		height: 100px;
+		margin-right: -180px;
+	}
+
+	/* INTRO FIN */
+
+	.header { height: 60px;}
+
+	.logo { width: 450px; height: 60px;}
+
+	.juegos {
+		width: 350px;
+		margin: auto;
+		display: block;
+	}
+
+	.jue {
+		width: 350px;
+		height: 100px;
+		margin: auto;
+		display: block;
+		border-radius: 10px;
+	}
+
+	.juegos1 {
+		width: 400px;
+		margin: auto;
+		display: block;
+	}
+
+	.jue1 {
+		width: 400px;
+		height: 200px;
+		margin: auto;
+		display: block;
+		border-radius: 10px;
+	}
+
+	.jue2 {
+		width: 400px;
+		height: 200px;
+		margin: auto;
+		display: block;
+		border-radius: 20px;
+	}
+
+	.flecha {
+		width: 65px;
+		height: 65px;
+	}
+
+	.contenido {
+		width: 450px;
+		height: auto;
+		top: 220px;
+	}
+
+	.caos {
+		width: 150px;
+		height: 150px;
+		border-radius: 10px;
+	}
+
+	.footer { 
+		font-size: 20px; 
+		position: relative;
+		top: 290px;
+	}
+
+		.pie {
+			float: right;
+			position: relative;
+			font-family:  bold;
+			font-size: 20px;
+			margin-right: 10px;
+			top: 20px;
+	}
+}

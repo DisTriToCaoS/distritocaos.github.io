@@ -1,0 +1,118 @@
+/* by DisTriToCaOs */
+* { }
+
+html, body { }
+
+body {
+	background: #101010;
+	color: silver;
+	font-size: 23px;
+	margin: 0;
+	padding: 60px 0 0 0;
+	font-family: verdana;
+	letter-spacing: 1px;
+}
+.page {
+	margin: 0px auto;
+    width: 100%;
+}
+.headIntro {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	background: transparent;
+	top: 0px;
+}
+
+.logoIntro {
+	width: 225px;
+	height: 225px;
+	margin: auto;
+	display: block;
+}
+.ciudad {
+	width: 250px;
+	height: auto;
+	margin: auto;
+	display: block;
+	border-radius: 10px;
+	position: relative;
+	top: 35px;
+}
+#obra {
+	margin: auto;
+	display: block;
+	width: 230px;
+	height: auto;
+	font-size: 20px;
+	position: relative;
+	top: 45px;
+}
+.redes {
+	position: relative;
+	top: 55px;
+}
+.red{
+	text-decoration: none;
+	margin: auto;
+	display: inline-block;
+}
+#foto {
+	border-radius: 20px;
+	width: 50px;
+	height: 50px;
+}
+.footer {
+	position: relative;
+	color: white;
+	font-family:  bold;
+	font-size: 15px;
+	top: 70px;
+	text-align: center;
+}
+
+/* SCREEN */
+
+@media screen and (min-width: 768px) {
+
+	.headIntro {
+		width: 100%;
+		height: 130px;
+		position: absolute;
+		top: 0px;
+	}
+
+	.logoIntro {
+		width: 300px;
+		height: auto;
+		margin: auto;
+		display: block;
+	}
+	.ciudad {
+		width: 300px;
+		height: auto;
+		position: relative;
+		top: 90px;
+	}
+	#obra {
+		width: 290px;
+		display: block;
+		font-size: 22px;
+		position: relative;
+		top: 110px;
+	}
+	#foto {
+		border-radius: 20px;
+		width: 60px;
+		height: 60px;
+		top: 60px;
+	}
+	.redes {
+		top: 110px;
+	}
+	.footer { 
+		font-size: 20px; 
+		position: relative;
+		top: 120px;
+	}
+}
